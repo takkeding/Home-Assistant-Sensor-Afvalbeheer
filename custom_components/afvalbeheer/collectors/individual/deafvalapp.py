@@ -22,6 +22,7 @@ class DeAfvalAppCollector(WasteCollector):
         'pbp': WASTE_TYPE_PACKAGES,
         'rest': WASTE_TYPE_GREY,
         'kerstboom': WASTE_TYPE_TREE
+        'papier': WASTE_TYPE_PAPER
     }
 
     def __init__(self, hass, waste_collector, postcode, street_number, suffix, custom_mapping):
